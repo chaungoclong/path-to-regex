@@ -1,0 +1,17 @@
+{
+    "name": "longtnt/path-to-regex",
+    "description": "convert path to regex",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Chaungoclong\\PathToRegex\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chau Ngoc Long",
+            "email": "chaungoclong2411@gmail.com"
+        }
+    ],
+    "require": {}
+}
