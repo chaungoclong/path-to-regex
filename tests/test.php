@@ -22,6 +22,6 @@ $matchesOnlyRequiredParameterWithSplashAtEnd = $routeRegex->match(
 var_dump($matchesOnlyRequiredParameterWithSplashAtEnd);
 
 // case has only required parameters
-$matchesOnlyRequiredParameter = $routeRegex->match('/posts/1/comments/');
+$matchesOnlyRequiredParameter = $routeRegex->match('/posts/1/comments');
 
 var_dump($matchesOnlyRequiredParameter);
